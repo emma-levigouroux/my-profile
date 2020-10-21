@@ -1,0 +1,81 @@
+/* Colors and fonts */
+body {
+	background-color: #bee3db;
+	font-family: 'Oswald', sans-serif; }
+
+h1{
+	color: white;
+	font-size: 34px;
+	line-height: 1.2;
+	letter-spacing: 10px;}
+
+h2{
+	color: #201E50;
+	font-size: 25px;
+}
+
+p{color: white;}
+
+a{text-decoration: none;
+color: #C4F1BE;
+transition: 0.3s ease;}
+
+a:hover{color: white;}
+
+p{color: white;}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+.card-white{
+	background-color: #00afb9 ;
+	padding:40px ;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	margin:20px 0px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 60%;
+}
+
+.btn-blue {
+	background-color: #C4F1BE;
+	color: #201E50;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: grey;
+	color: #201E50;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.list-inline i {
+	font-style: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
